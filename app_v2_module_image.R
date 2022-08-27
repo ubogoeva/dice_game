@@ -43,6 +43,7 @@ believe_or_checkout <- function(my_dices, bet_dice, bet_times) {
     return(comp_max_dice)
   }
 }
+# commit 
 
 display_gameover <- function(my_dices, output) {
   output$gameover <- renderTable({dice_data$competitor})
